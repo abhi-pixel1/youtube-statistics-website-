@@ -1,0 +1,79 @@
+.index{
+    
+}
+
+
+.button{
+    background-color: rgba(255, 245, 238, 0.596);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 25px;
+    text-align: center;
+    font-size: 18px;
+    border-style: solid;
+    border-color: black;
+    width: 300px;
+    border-radius: 25px;
+    /*box-shadow: 5px 10px 8px #888888;*/
+}
+
+.back{
+    background-color: rgb(240, 106, 10);
+    padding: 375px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0);
+    background-image:url(graph_back.jpg);
+    background-size:cover;
+}
+
+.head,.info,.pep1,.pep2{
+    text-shadow: 5px 10px 8px #888888;
+}
+
+.b1,.b2,.red{
+    background-color: #4CAF50;
+    padding: 9px 25px;
+    border-color: greenyellow;
+    border-radius: 25px;
+    border-style: solid;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.b1{
+    margin-top: 50px;
+    margin-bottom:20px;
+}
+
+.b1:hover,.b2:hover{
+    background-color: rgb(240, 85, 85);
+}
+
+
+.t1,.t2{
+    font-family: Times New Roman, Times, serif;
+    text-decoration: none;
+    color: white;
+}
+
+.g10,.g11,.g12,.g13,.g14,.g15,.g20,.g21{
+    margin: 40px;
+    margin-bottom: 60px;
+    padding: 50px;
+    /*background-color: black;*/
+    border-style: solid;
+    border-color: rgb(62, 238, 120);
+    border-radius: 25px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.g10{
+    padding: 50px;
+}
+
+.me-1{
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
